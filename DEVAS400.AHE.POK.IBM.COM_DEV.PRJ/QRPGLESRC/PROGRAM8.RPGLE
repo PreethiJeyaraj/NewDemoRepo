@@ -1,14 +1,14 @@
 000100190629     H DATFMT(*ISO)
 000200180621
 000300190629      *
-000400190911     DHDATE1           S               D
+000400190911     DHDATE2           S               D
 000500190629     DDATEMDY          S               D   DATFMT(*MDY)
 000600190629      *
 000700190624
 000800190629     C                   MOVE      '06/30/19'    DATEMDY
 000900190629     C     DATEMDY       DSPLY
-001000190911     C                   MOVE      DATEMDY       HDATE1
-001100190911     C     HDATE1        DSPLY
+001000190911     C                   MOVE      DATEMDY       HDATE2
+001100190911     C     HDATE2        DSPLY
 001200190624      *
 001300190624     C                   EVAL      *INLR = *ON
 001400190624     C                   RETURN
