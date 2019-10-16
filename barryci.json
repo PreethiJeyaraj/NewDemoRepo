@@ -2,7 +2,7 @@
 "build":[
   {
     "command": "gmake",
-    "args": ["clean", "BIN_LIB=ILEUSION"]
+    "args": ["clean", "BIN_LIB=NewDemoRepo"]
   },
   {
     "command":"gmake",
