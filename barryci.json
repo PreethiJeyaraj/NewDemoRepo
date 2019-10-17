@@ -2,7 +2,7 @@
 "build":[
   {
     "command":"gmake",
-    "args": ["BIN_LIB=DEV.PRJ"]
+    "args": ["BIN_LIB=NewDemoRepo"]
   }
  ]
 }
