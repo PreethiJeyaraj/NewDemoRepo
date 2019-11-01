@@ -25,4 +25,3 @@ release: clean
 	@echo "  > CRTLIB $(BIN_LIB)"
 	@echo "  > CPYFRMSTMF FROMSTMF('./release1X/release1X.savf') TOMBR('/QSYS.lib/$(BIN_LIB).lib/RELEASE1X.FILE') MBROPT(*REPLACE) CVTDTA(*NONE)"
 	@echo "  > RSTLIB SAVLIB($(BIN_LIB)) DEV(*SAVF) SAVF($(BIN_LIB)/RELEASE1X)"
-	@echo ""
